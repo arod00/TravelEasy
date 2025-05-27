@@ -1,0 +1,112 @@
+<!-- features.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TravelEasy | Features</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fbfd;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c7be5;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .feature-box {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .feature-box i {
+      font-size: 2.5rem;
+      color: #2c7be5;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature-box h2 {
+      margin: 0.5rem 0;
+      color: #2c7be5;
+    }
+
+    footer {
+      background-color: #2c7be5;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Website Features</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="trips.html">Trips</a>
+    </nav>
+  </header>
+
+  <section class="features">
+    <div class="feature-box">
+      <i class="fas fa-search"></i>
+      <h2>Smart Search</h2>
+      <p>Filter by price, rating, and location to find the perfect stay.</p>
+    </div>
+    <div class="feature-box">
+      <i class="fas fa-lock"></i>
+      <h2>Secure Payments</h2>
+      <p>Your transactions are encrypted and fully protected.</p>
+    </div>
+    <div class="feature-box">
+      <i class="fas fa-headset"></i>
+      <h2>24/7 Support</h2>
+      <p>Get help any time through our live chat or email.</p>
+    </div>
+    <div class="feature-box">
+      <i class="fas fa-mobile-alt"></i>
+      <h2>Mobile Friendly</h2>
+      <p>Use our site easily from any smartphone or tablet.</p>
+    </div>
+    <div class="feature-box">
+      <i class="fas fa-globe"></i>
+      <h2>Multi-language</h2>
+      <p>Our site supports multiple languages for your convenience.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 TravelEasy. All rights reserved.</p>
+  </footer>
+</body>
+</html>

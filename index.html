@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TravelEasy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Banner image -->
+  <div class="banner">
+  <header>
+    <h1>TravelEasy</h1>
+    <img src="images/banner.png" alt="Travel banner" />
+    <p>Your Online Travel Partner</p>
+  </header>
+  </div>
+
+  <nav>
+  <ul>    
+    <li><a href="pages/features.html">Features</a></li>
+    <li><a href="pages/trips.html">Trips</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  </nav>
+
+
+  <section id="about">
+    <h2>About TravelEasy</h2>
+    <p>TravelEasy has been helping customers plan trips for 5 years. We offer hotels, tours, and transportation across Europe and Latin America.</p>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="return showMessage()">
+      <input type="text" placeholder="Your name" required />
+      <input type="email" placeholder="Your email" required />
+      <textarea placeholder="Your message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="confirmation" class="hidden">Thanks for your message!</p>
+  </section>
+
+  <footer>
+    <p>© 2025 TravelEasy. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
